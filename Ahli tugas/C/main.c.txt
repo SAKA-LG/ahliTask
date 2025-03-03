@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char nama[10];
+    char nomer[20];
+    int usia;
+    char alamat[70];
+
+    //code
+    printf("input data diri\n");
+    printf("nama: ");
+    scanf("%s" ,&nama);
+    printf("umur: ");
+    scanf("%i" ,&usia);
+    printf("nomer : ");
+    scanf("%s", &nomer);
+    printf("alamat :");
+    scanf("%s", &alamat);
+    //output
+    printf("\n-----------------------\n");
+    printf("nama saya %s\n", nama);
+    printf("umur saya adalah %i\n", usia);
+    printf("nomer telp %s\n", nomer);
+    printf("alamat %s\n", alamat);
+
+    return 0;
+}

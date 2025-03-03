@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-13 08:14:42 AM"/>
+        <attribute name="created" value="SFA7SVNBS0E7MjAyNC0wOS0xMjswNzoyODo0NCBQTTsxODAy"/>
+        <attribute name="edited" value="SFA7SVNBS0E7MjAyNC0wOS0xMzswODoxNDo0MiBBTTsyOzE4OTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, bilangan, total, i" type="Integer" array="False" size=""/>
+            <declare name="ratarata" type="Real" array="False" size=""/>
+            <output expression="&quot;mencari rata rata dari nilai berikut ini&quot;" newline="True"/>
+            <output expression="&quot;masukan jumlah yang mau di rata rata kan :3&quot;" newline="True"/>
+            <input variable="n"/>
+            <assign variable="total" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <output expression="&quot;masukan nilai kamu&quot;" newline="True"/>
+                <input variable="bilangan"/>
+                <assign variable="total" expression="total + bilangan"/>
+            </for>
+            <assign variable="ratarata" expression="total / n"/>
+            <output expression="&quot;hasil dari rata-rata yang dimasukan adalah &quot; &amp;Ratarata" newline="True"/>
+            <output expression="&quot;end&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
